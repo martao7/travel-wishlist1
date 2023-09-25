@@ -7,8 +7,9 @@
     <h1>Travel-Wishlist</h1>
     <ul>
       <% countries.forEach(country => { %>
-      <li><%= country.name %></li>
-      <% }); %>
+        <li><%= country.name %></li>
+        <% }); %>
+      
     </ul>
     <form action="/api/countries" method="post">
       <input type="text" name="name" placeholder="Country Name" />
