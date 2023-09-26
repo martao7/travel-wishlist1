@@ -4,7 +4,7 @@ import countryRouter from './routes/countryRouter.js';
 const PORT = 8000;
 
 
-// Middleware to parse JSON requests
+// Middleware to parse JSON requests...
 app.use(express.json());
 
 app.use(express.urlencoded({extended: true}));
