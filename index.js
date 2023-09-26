@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 
 
 //Routes
-app.use('api/countries', countryRouter);
+app.use('/api/countries', countryRouter);
 
 
 // Start the server
